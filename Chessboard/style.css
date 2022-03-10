@@ -1,0 +1,25 @@
+
+input{
+	padding: 10px;
+	margin-left: 10px;
+	border-radius: 7px;
+
+}
+.btn{
+	background: greenyellow;
+	font-size: 20px;
+	padding: 8px;
+	border: 2px solid white;
+	cursor: pointer;
+}
+table{
+	border: 2px solid white;
+	border-spacing: 0;
+}
+td{
+	padding: 25px;
+	border: 2px solid black;
+}
+.bgBlack{
+	background: black;
+}
