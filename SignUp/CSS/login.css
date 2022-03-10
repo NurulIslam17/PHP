@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+/*font-family: 'Ubuntu', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+/*font-family: 'Mochiy Pop P One', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Mochiy+Pop+P+One&display=swap');
+/*font-family: 'Lobster', cursive;
+font-family: 'Mochiy Pop P One', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Teko:wght@300&display=swap');
+/*font-family: 'Teko', sans-serif;*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #74b9ff;
+}
+
+.container-main {
+	height: 375px;
+	width: 60%;
+	background: #b7faa7;
+	margin-top: 3%;
+	border-radius: 30px;
+}
+
+.container-main .row .topMdl{
+	margin-top: 6%;
+}
+
+.container-main .row .form {
+	text-align: center;
+	margin: 5px;
+}
+
+.container-main .row .form form .input-group input {
+	background: white;
+	/* margin: auto; */
+	padding: 3px;
+	color: grey;
+	font-size: 20px;
+	margin-top: 15px;
+	width: 225px;
+	border-radius: 16px;
+	border: 2px solid white;
+}
+
+.container-main .row .form form .btn input {
+	background: greenyellow;
+	margin: auto;
+	padding: 5px 20px;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 18px;
+	width: auto;
+	font-family: 'Ubuntu', sans-serif;
+	border: 2px solid green;
+	border-radius: 35px;
+}
+
+.container-main .row .addInfo {
+	margin: 0px 20px;
+	text-align: center;
+}
+.container-main .row .addInfo p {
+	font-family: 'Mochiy Pop P One', sans-serif;
+	font-size: 14px;
+}
+.container-main .row .addInfo a {
+	font-family: 'Lobster', cursive;
+	font-size: 17px;
+}
+
+.container-main .row .right .imgArea img {
+	height: 100%;
+	width: 100%;
+	padding: 1px 16px 10px 10px;
+	margin-top: 13px;
+	border-radius:20% 30% 46% 23% / 0% 23% 0% 21%  ;
+}

@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+/*font-family: 'Ubuntu', sans-serif;*/
+
+body{
+	background: #74b9ff;
+}
+
+.mainDiv {
+	color: white;
+	background: black;
+	margin: auto;
+	margin-top: 5%;
+	text-align: center;
+	padding: 30px 0;
+	border-radius: 15px;
+	font-family: 'Ubuntu', sans-serif;
+}
+/*.left{
+	padding: 10px;
+}*/
+
+.left > img {
+	height: 278px;
+	width: 62%;
+	border-radius: 20% 30% 46% 23% / 0% 23% 0% 21% ;
+	background: blanchedalmond;
+}
+
+.left p {
+	font-size: 18px;
+	margin-bottom: 0px;
+	margin: 7px 112px;
+}
+.left > a {
+	color: green;
+	font-size: 18px;
+}
+
+.left > a:hover {
+	color:  yellow;
+	font-size: 18px;
+}
+
+
+.left a:hover {
+	color: blue;
+}
+
+.right h2{
+	font-weight: bold;
+	padding: 10px 15px;
+}
+
+.right .form-row input {
+	padding: 5px;
+	margin: 10px 30px;
+	font-size: large;
+	font-family: arial;
+	padding: 4px 12px;
+	border-radius: 20% 17% 14% 22% / 0% 13% 0% 20% ;
+}
+
+.right .form-row .btn {
+	text-align: center;
+	margin-left: 22%;
+}
+.right .form-row .btn input {
+	padding: 5px;
+	margin: auto;
+	font-size: 23px;
+	font-family: arial;
+	padding: 3px 6px;
+	margin-top: 27px;
+	background: blue;
+	border: 2px solid blue;
+	color: white;
+	font-family: Ubuntu;
+	font-size: 23px;
+	cursor:progress;
+	border-radius: 5px;
+}
+
+.right .form-row .btn p {
+	padding: 5px;
+	margin: 10px 38px;
+	font-size: 18px;
+	font-family: arial;
+	color:white;
+}
