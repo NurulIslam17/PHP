@@ -1,0 +1,46 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #54a0ff;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,h2,h3{
+    color: black;
+    padding-bottom: 10px;
+}
+
+.login {
+	background: #48dbfb;
+	height: 250px;
+	width: 287px;
+	padding: 23px;
+	margin: auto;
+	margin-top: 5%;
+}
+.inp {
+	padding: 10px;
+	font-size: 16px;
+	background: blanchedalmond;
+	font-weight: bold;
+	width: 207px;
+}
+
+.btn {
+	background: rgb(95, 235, 95);
+	font-size: 17px;
+	font-weight: bold;
+	color: rgb(12, 6, 6);
+	padding: 7px;
+    border: 2px solid black;
+    border-radius: 28px;
+
+    
+}

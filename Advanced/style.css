@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div1{
+    height: 90px;
+    width: 100%;
+    background: rgb(94, 223, 83);
+}
+h1{
+    padding-top: 35px;
+    text-align: center;
+    color: #fff;
+}

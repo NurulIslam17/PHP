@@ -1,0 +1,49 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: #00d2d3;
+}
+
+.login_div {
+	height: 100px;
+	width: 180px;
+	background: #2e86de;
+	margin: auto;
+	padding: 30px;
+	margin-top: 5%;
+}
+
+#name{
+    padding: 5px;
+    font-size: 14px;
+}
+
+#pass{
+    padding: 5px;
+    font-size: 14px;
+}
+
+#login_btn {
+	padding: 6px;
+	color: whitesmoke;
+	background: blue;
+	font-weight: bold;
+	margin-left: 68px;
+}
+
+
+
+.login-result {
+	height: 280px;
+	width: 320px;
+	padding: 10px;
+	color: black;
+	background: white;
+	margin: 54px auto 0px;
+}

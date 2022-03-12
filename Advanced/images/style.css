@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #82ccdd;
+}
+
+.image-insert {
+	background: #4a69bd;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	height: 180px;
+	width: 402px;
+	padding: 16px;
+	margin: auto;
+	margin-top: 6%;
+    text-align: center;
+    box-shadow: 11px 2px black;
+}
+
+.image-insert input {
+	padding: 10px;
+
+}
+
+.image-insert #img {
+	background: rgb(203, 228, 231);
+	font-weight: bold;
+	color: black;
+	font-size: 1.2rem;
+	border: 2px solid black;
+	border-radius: 40px;
+    padding: 0;
+    margin-top: 35px;
+}
+
+.image-insert .upload {
+	background: #3bc;
+	font-weight: bold;
+	color: black;
+	font-size: 1.2rem;
+	border: 2px solid black;
+	border-radius: 40px;
+}
+
