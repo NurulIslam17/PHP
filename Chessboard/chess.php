@@ -19,18 +19,22 @@
 
 			<table>
 				<?php
-					if (isset($_POST['submit'])){
 
+					if (isset($_POST['submit']))
+					{
 						$inp = $_POST['num'];
-						for ($row=1; $row<=$inp ; $row++) { 
+						for ($row=1; $row<=$inp ; $row++) 
+						{ 
 							echo "<tr>";
 							for ($col=1; $col<=$inp ; $col++)
-								if (($row+$col)%2==0) {
+								if (($row+$col)%2==0) 
+								{
 									echo "<td class='bgBlack'></td>";
-								}else{
+								}
+								else
+								{
 									echo "<td></td>";
 								}
-
 							echo "</tr>";
 						}
 					}
