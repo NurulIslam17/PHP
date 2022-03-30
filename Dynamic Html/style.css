@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,500;1,700&display=swap');
+/*font-family: 'Ubuntu', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Ubuntu:ital,wght@0,500;1,500;1,700&display=swap');
+/*font-family: 'Russo One', sans-serif;*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #F8EFBA;
+}
+.color{
+	background: blueviolet;
+	height: 230px;
+	width: 500px;
+	margin: 10% auto;
+	padding: 10px;
+	font-size: 18px;
+	text-align: center;
+
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.color input{
+	background: blueviolet;
+	height: 30px;
+	width: 90%;
+	margin: 10px 0;
+	padding: 10px;
+	font-size: 20px;
+	color: white;
+	background: gray;
+}
+
+.color .sub{
+	background: blue;
+	height: 40px;
+	width: 100px;
+	margin: 10px 0;
+	padding: 10px;
+	background: seagreen;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+.color .output{
+	background: blue;
+	height: 20px;
+	width: 90%;
+	margin: 10px 0;
+	padding: 10px;
+	background: seagreen;
+	color: white;
+	font-size: 20px;
+
+	font-family: 'Russo One', sans-serif;
+}
