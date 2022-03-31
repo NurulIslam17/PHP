@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,500;1,700&display=swap');
+/*font-family: 'Ubuntu', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Ubuntu:ital,wght@0,500;1,500;1,700&display=swap');
+/*font-family: 'Russo One', sans-serif;*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	
+	font-family: 'Ubuntu', sans-serif;
+	background: #0fab9e;
+}
+
+.calculator {
+	height: 314px;
+	width: 430px;
+	margin: auto;
+	margin-top: 10%;
+	padding: 10px;
+	background: Black;
+	border-radius: 8px;
+}
+
+.calculator h2{
+	height: 30px;
+	width: 130px;
+	margin: auto;
+	padding: 15px;
+	border-radius: 7px;
+	color: white;
+	display: flex;
+	margin: 5px;
+	justify-content: space-between;
+}
+
+.cal-left{
+	height: 50%;
+	width: 50%;
+	float: left;
+	text-align: center;
+	margin: auto;
+	margin-top: 20%;
+	text-align: left;
+}
+
+.cal-right{
+	height: 50%;
+	width: 50%
+	float: left;
+	text-align: center;
+	margin: auto;
+	margin-top: 20%;
+}
+.calculator .cal-left h2{
+	color: #0d9489;
+	line-height: 32px;
+}
+
+.calculator .cal-right .inp-group {
+	height: 29px;
+	width: 42%;
+	margin: 6px;
+	color: white;
+	background: black;
+	font-size: 19px;
+	text-align: center;
+}
+.calculator .cal-right option {
+	height: 33px;
+}
+
+.calculator .cal-right .btn {
+	margin-top: 9px;
+	padding: 8px;
+	background: #0d9489;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: "Ubuntu";
+}
+
+.calculator .res {
+	color: white;
+	font-size: 20px;
+	margin-left: 5px;
+}
